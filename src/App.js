@@ -63,7 +63,9 @@ function App() {
           <img src="/goodjob.png" alt="Good job!"></img>
           <button className="continue" onClick={function () {
             if (typeof navigator.canShare !== "undefined" && navigator.canShare() === true) {
-              navigator.share(`In Pop quiz, I got ${score} out of ${q.length} questions correct! Take this quiz too!`);
+              navigator.share({
+                text: `In Pop quiz, I got ${score} out of ${q.length} questions correct! Take this quiz too!`
+              });
             } else {
               alert("Failed to share");
             }
