@@ -62,12 +62,12 @@ function App() {
           <h2>You got {score} out of {q.length} questions correct! Well done!</h2>
           <img src="/goodjob.png" alt="Good job!"></img>
           <button className="continue" onClick={function () {
-            if (typeof navigator.canShare !== "undefined") {
+            if (typeof navigator.share !== "undefined") {
                 try {
                   navigator.share({
                     text: `In Pop quiz, I got ${score} out of ${q.length} questions correct! Take this quiz too!`,
                     title: "Cool pop quiz",
-                    url: location.href
+                    url: document.location.href
                   });
               } catch {
                   alert("Failed to share :(");
