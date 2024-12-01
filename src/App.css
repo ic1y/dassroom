@@ -56,10 +56,13 @@ h1 {
 
 h2 {
   font-size: 2rem;
+  margin: 0;
+  font-weight: 700;
 }
 
 img {
-  max-width: calc(75vmin - 2rem);
+  width: calc(75vmin - 2rem);
+  max-width: 30rem;
 }
 
 @media (prefers-color-scheme: light), print {

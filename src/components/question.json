@@ -37,7 +37,7 @@
 			"answers": [
 				"Mars"
 			],
-			"explanation": "Mars is often referred to as the Red Planet due to its reddish appearance, which is caused by iron oxide (rust) on its surface. It is the fourth planet from the Sun."
+			"explanation": "Mars is often referred to as the Red Planet due to its reddish appearance, which is caused by iron oxide (rust) on its surface. It is the fourth closest planet to the Sun."
 		},
 		{
 			"question": "What is the largest mammal in the world?",
@@ -50,33 +50,124 @@
 			"answers": [
 				"Blue Whale"
 			],
-			"explanation": "The Blue Whale is the largest mammal and animal known to have ever existed, reaching lengths of up to 100 feet (30 meters) and weights of around 200 tons."
+			"explanation": "The Blue Whale is the largest mammal and animal known to have existed. Some blue whales reach lengths of up to 100 feet (30 meters) and weights of around 200 tons."
 		},
 		{
-			"question": "What element has the chemical symbol 'O'?",
+			"question": "What is the most common element in the Earth's crust?",
 			"options": [
-				"Oxygen",
-				"Gold",
-				"Osmium",
-				"Oganesson"
+				"Silicon",
+				"Aluminum",
+				"Carbon",
+				"Oxygen"
 			],
 			"answers": [
 				"Oxygen"
 			],
-			"explanation": "Oxygen, represented by the symbol 'O', is a vital element for life on Earth. It is essential for respiration in most living organisms and makes up about 21% of Earth's atmosphere."
+			"explanation": "Oxygen makes up about 46% of the Earth's crust, combining with other elements to form minerals like silicates, which are the most common type of rock-forming minerals."
 		},
 		{
-			"question": "Who wrote 'Romeo and Juliet'?",
+			"question": "Which scientist is famous for developing the theory of general relativity?",
 			"options": [
-				"William Shakespeare",
-				"Charles Dickens",
-				"Mark Twain",
-				"Jane Austen"
+				"Isaac Newton",
+				"Albert Einstein",
+				"Galileo Galilei",
+				"Marie Curie"
 			],
 			"answers": [
-				"William Shakespeare"
+				"Albert Einstein"
 			],
-			"explanation": "'Romeo and Juliet' is a tragedy written by William Shakespeare, which tells the story of two young star-crossed lovers whose deaths ultimately reconcile their feuding families."
+			"explanation": "Albert Einstein developed the theory of general relativity, which describes gravity as a curvature of space-time caused by mass and energy, significantly altering our understanding of physics."
+		},
+		{
+			"question": "What is the process by which plants make their food using sunlight?",
+			"options": [
+				"Respiration",
+				"Photosynthesis",
+				"Digestion",
+				"Transpiration"
+			],
+			"answers": [
+				"Photosynthesis"
+			],
+			"explanation": "Photosynthesis is the process by which plants use sunlight, water, and carbon dioxide to produce glucose (a type of sugar) and oxygen, providing energy for the plant's growth."
+		},
+		{
+			"question": "What type of animal is a frog?",
+			"options": [
+				"Mammal",
+				"Bird",
+				"Reptile",
+				"Amphibian"
+			],
+			"answers": [
+				"Amphibian"
+			],
+			"explanation": "Frogs are amphibians, meaning they live both in water and on land. They undergo a life cycle that includes a larval stage in water (tadpoles) and an adult stage on land."
+		},
+		{
+			"question": "Which of these is the smallest unit of life?",
+			"options": [
+				"Atom",
+				"Cell",
+				"Molecule",
+				"Organ"
+			],
+			"answers": [
+				"Cell"
+			],
+			"explanation": "The cell is the basic structural and functional unit of life. It is the smallest unit capable of independent life and is the building block of all living organisms."
+		},
+		{
+			"question": "What type of energy is stored in food?",
+			"options": [
+				"Potential energy",
+				"Kinetic energy",
+				"Thermal energy",
+				"Chemical energy"
+			],
+			"answers": [
+				"Chemical energy"
+			],
+			"explanation": "Food contains chemical energy, which is stored in the bonds of molecules like carbohydrates, fats, and proteins. This energy is released during digestion and used by the body for various functions."
+		},
+		{
+			"question": "Which planet is the closest to the Sun?",
+			"options": [
+				"Earth",
+				"Venus",
+				"Mercury",
+				"Mars"
+			],
+			"answers": [
+				"Mercury"
+			],
+			"explanation": "Mercury is the closest planet to the Sun, orbiting at an average distance of about 57 million kilometers (35 million miles). It has extreme temperature fluctuations due to its thin atmosphere."
+		},
+		{
+			"question": "What is the human body's largest organ?",
+			"options": [
+				"Heart",
+				"Skin",
+				"Liver",
+				"Lungs"
+			],
+			"answers": [
+				"Skin"
+			],
+			"explanation": "The skin is the largest organ of the human body, serving as a barrier to protect internal organs, regulate temperature, and provide sensory information."
+		},
+		{
+			"question": "What is the main source of energy for the Earth's climate system?",
+			"options": [
+				"The Moon",
+				"The Sun",
+				"The Earth's core",
+				"The Oceans"
+			],
+			"answers": [
+				"The Sun"
+			],
+			"explanation": "The Sun is the primary source of energy for the Earth's climate system. Its energy drives the water cycle, weather patterns, and the photosynthesis process in plants."
 		}
 	]
 }
