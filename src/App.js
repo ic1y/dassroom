@@ -32,7 +32,7 @@ function App() {
         <div style={{
           display: (isResultsShown ? "none" : "flex")
         }}>
-          <h1>Pop Quiz</h1>
+          <h1>Pop Quiz 😊</h1>
           <span className="questionNo">Question {i + 1} of {q.length}</span>
           <Question question={q[i].question} options={shuffleArray(q[i].options)} answerHandler={answerHandler} isAnsShown={isAnsShown}></Question>
           <div style={{
@@ -62,12 +62,18 @@ function App() {
           <h2>You got {score} out of {q.length} questions correct! Well done!</h2>
           <img src="/goodjob.png" alt="Good job!"></img>
           <button className="continue" onClick={function () {
-            if (typeof navigator.canShare !== "undefined" && navigator.canShare() === true) {
-              navigator.share({
-                text: `In Pop quiz, I got ${score} out of ${q.length} questions correct! Take this quiz too!`
-              });
+            if (typeof navigator.canShare !== "undefined") {
+                try {
+                  navigator.share({
+                    text: `In Pop quiz, I got ${score} out of ${q.length} questions correct! Take this quiz too!`,
+                    title: "Cool pop quiz",
+                    url: location.href
+                  });
+              } catch {
+                  alert("Failed to share :(");
+              }
             } else {
-              alert("Failed to share");
+              alert("Your browser doesn't support sharing. You can share it manually :)");
             }
           }}>Share your good results</button>
         </div>
