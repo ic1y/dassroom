@@ -1,0 +1,82 @@
+{
+	"questions": [
+		{
+			"question": "Who said 'I think, therefore I am'?",
+			"options": [
+				"René Descartes",
+				"Albert Einstein",
+				"Karl Marx",
+				"Franz Kafka"
+			],
+			"answers": [
+				"René Descartes"
+			],
+			"explanation": "'I think, therefore I am' is a philosophical statement by René Descartes, asserting that the act of thinking is proof of one's existence. It emphasizes self-awareness and consciousness as foundational elements of identity and reality in Western philosophy."
+		},
+		{
+			"question": "Which of these gases solidifies to form dry ice?",
+			"options": [
+				"Carbon dioxide",
+				"Nitrogen dioxide",
+				"Carbon monoxide",
+				"Oxygen"
+			],
+			"answers": [
+				"Carbon dioxide"
+			],
+			"explanation": "Carbon dioxide solidifies at −78.5 °C to become dry ice. It helps keep things, like ice cream, cool. Fog machines use dry ice to create dramatic effects in theatre performances."
+		},
+		{
+			"question": "Which planet is known as the Red Planet?",
+			"options": [
+				"Mars",
+				"Jupiter",
+				"Saturn",
+				"Venus"
+			],
+			"answers": [
+				"Mars"
+			],
+			"explanation": "Mars is often referred to as the Red Planet due to its reddish appearance, which is caused by iron oxide (rust) on its surface. It is the fourth planet from the Sun."
+		},
+		{
+			"question": "What is the largest mammal in the world?",
+			"options": [
+				"Giraffe",
+				"Elephant",
+				"Blue Whale",
+				"Hippopotamus"
+			],
+			"answers": [
+				"Blue Whale"
+			],
+			"explanation": "The Blue Whale is the largest mammal and animal known to have ever existed, reaching lengths of up to 100 feet (30 meters) and weights of around 200 tons."
+		},
+		{
+			"question": "What element has the chemical symbol 'O'?",
+			"options": [
+				"Oxygen",
+				"Gold",
+				"Osmium",
+				"Oganesson"
+			],
+			"answers": [
+				"Oxygen"
+			],
+			"explanation": "Oxygen, represented by the symbol 'O', is a vital element for life on Earth. It is essential for respiration in most living organisms and makes up about 21% of Earth's atmosphere."
+		},
+		{
+			"question": "Who wrote 'Romeo and Juliet'?",
+			"options": [
+				"William Shakespeare",
+				"Charles Dickens",
+				"Mark Twain",
+				"Jane Austen"
+			],
+			"answers": [
+				"William Shakespeare"
+			],
+			"explanation": "'Romeo and Juliet' is a tragedy written by William Shakespeare, which tells the story of two young star-crossed lovers whose deaths ultimately reconcile their feuding families."
+		}
+	]
+}

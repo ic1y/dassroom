@@ -1,0 +1,42 @@
+.question {
+	margin-top: 0.25rem;
+	display: block;
+	font-weight: 700;
+}
+.options {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	row-gap: 1rem;
+	margin: 1rem 0;
+}
+.options > button {
+	color: white;
+	min-width: 20rem;
+	max-width: calc(100vw - 2rem);
+	font-size: 87.5%;
+	padding: 0.375rem;
+	max-width: calc(100vw - 2rem);
+	border-radius: 0.5rem;
+}
+
+.options > button:hover  {
+  scale: 1.1;
+}
+
+.options > button:nth-child(1) {
+	background-color: maroon;
+}
+
+.options > button:nth-child(2) {
+	background-color: darkblue;
+}
+
+.options > button:nth-child(3) {
+	background-color:darkgoldenrod;
+}
+
+.options > button:nth-child(4) {
+	background-color: darkgreen;
+}
